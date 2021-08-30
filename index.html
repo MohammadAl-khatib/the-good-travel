@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Good Travel</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="../img/logo.gif" alt="logo">
+        <h1>The Good Travel</h1>
+    </header>
+
+    <main>
+        <section class="form">
+            <form id="form">
+                <label for="placeNmae">Place Name</label>
+                <input type="text" id="placeName" placeholder="Region Name">
+                <label for="tripPlace"> Trip Plaace</label>
+                <select id="tripPlace">
+                    <option value="HAWAII">HAWAII</option>
+                    <option value="ITALY">ITALY</option>
+                    <option value="LONDON">LONDON</option>
+                    <option value="MALAYSIA">MALAYSIA</option>
+                    <option value="PARIS">PARIS</option>
+                    <option value="SLOVAKIA">SLOVAKIA</option>
+                </select>
+                <label for="typeOfTransport">Type Of Transport</label>
+                <select id="typeOfTransport">
+                    <option value="Car">Car</option>
+                    <option value="Train">Train</option>
+                    <option value="Flight">Flight</option>
+                    <option value="Cruise">Cruise</option>
+                </select>
+                <input type="submit">
+            </form>
+
+        </section>
+        <section class="tableSection">
+            <table id="table"></table>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>All right reserved &copy; ASAC 2021</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
